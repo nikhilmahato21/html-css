@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main{
+   width:100%;
+   height: 100%; 
+   background-color: rgba(90, 101, 185, 0.612);;
+   display:flex;
+   position: relative;
+   
+}
+#part1{
+    height: 100%;
+    width:26%;
+    
+}
+#part2{
+    height: 100%;
+    width:67%;
+    background-color: rgb(88, 23, 83);
+    background-image: url( https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW9kZWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60 );
+    background-size:cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.332);
+}
+#part3{
+    height: 100%;
+    width:7%;
+   
+}
+#text-div{
+    /* height: 300px; */
+    position: absolute;
+    width:400px;
+    left:7%;
+    top:50%;
+    transform: translate(0,-50%);
+}
+#text-div > h1{
+      font-size: 90px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight:800;
+      text-transform: uppercase;
+      line-height: 78px;
+      color: white;
+      letter-spacing: 8px;
+}
+#small-img{
+    position: absolute;
+    height: 400px;
+    width:300px;
+    background-color: bisque; 
+    top:50%;
+    right:5%;
+    transform: translate(0 ,-50%);
+    background-image: url(https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size:cover;
+    background-position: center;
+
+
+}
+
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right:-48%;
+    top:-4%;
+    transform-origin: 0% 0%;
+   
+    
+}
+
+#vertical-text h1 {
+    font-size: 70px;
+    font-weight: 900;
+    color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-text-stroke-color:aquamarine ;
+    -webkit-text-stroke-width: 2px;
+    letter-spacing: 15px;
+    
+    
+}
+
+#nav{
+    display: flex;
+    position: absolute;
+    width:350px;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    align-items: center;
+    left:7%;
+    top:5%;
+}
+
+#nav img{
+    width: 60px;
+}
+#nav h5{
+    font-size:20px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
